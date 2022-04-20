@@ -89,5 +89,5 @@ void draw() {
   }
     stroke(255,255,0);//the sun outside color
     fill(253,184,19);//the sun inside color
-    circle(520, 30, 160);//the sun size and location
+    ellipse(520, 30, 160,160);//the sun size and location
 }
