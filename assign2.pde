@@ -22,24 +22,24 @@ int ypos = 70;
 void setup() {
   
   size(600,480,P2D);
-  bgImag = loadImage("bg.jpg");
-  soilImag = loadImage("soil.png");
-  lifeImag = loadImage("life.png");
-  cabbageImag = loadImage("cabbage.png");
-  gameoverImag = loadImage("gameover.jpg");
-  groundhogDownImag = loadImage("groundhogDown.png");
-  groundhogIdleImag = loadImage("groundhogIdle.png");
-  groundhogLeftImag = loadImage("groundhogLeft.png");
-  groundhogRightImag = loadImage("groundhogRight.png");
-  soldierImag = loadImage("soldier.png");
-  restartHoveredImag = loadImage("restartHovered.png");
-  restartNormalImag = loadImage("restartNormal.png");
-  startHoveredImag = loadImage("startHovered.png");
-  startNormalImag = loadImage("startNormal.png");
-  titleImag = loadImage("title.jpg");
+  bgImag = loadImage("img\bg.jpg");
+  soilImag = loadImage("img\soil.png");
+  lifeImag = loadImage("img\life.png");
+  cabbageImag = loadImage("img\cabbage.png");
+  gameoverImag = loadImage("img\gameover.jpg");
+  groundhogDownImag = loadImage("img\groundhogDown.png");
+  groundhogIdleImag = loadImage("img\groundhogIdle.png");
+  groundhogLeftImag = loadImage("img\groundhogLeft.png");
+  groundhogRightImag = loadImage("img\groundhogRight.png");
+  soldierImag = loadImage("img\soldier.png");
+  restartHoveredImag = loadImage("img\restartHovered.png");
+  restartNormalImag = loadImage("img\restartNormal.png");
+  startHoveredImag = loadImage("img\startHovered.png");
+  startNormalImag = loadImage("img\startNormal.png");
+  titleImag = loadImage("img\title.jpg");
   
   
-  soldierImag = loadImage("soldier.png");
+  soldierImag = loadImage("img\soldier.png");
   smooth();
 }
 void keyPressed() {
